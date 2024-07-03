@@ -24,7 +24,17 @@
     font-weight: 800;
    
 }
+.logo span:hover{
+    color: rgb(254, 97, 97);
+}
+.nav-items div a:hover{
+    color: rgb(254, 97, 97);
 
+}
+.nav-items div span:hover{
+    color: rgb(254, 97, 97);
+
+}
 .nav-items{
     width: 70%;
     display: flex;
@@ -44,7 +54,7 @@
     }
 
     .basic-menu{
-        height: 1700px;
+        height: 3200px;
         width: 100%;
         background-color: rgb(246, 243, 243);
         margin-top: 0px;
@@ -89,6 +99,10 @@
         width: 23%;
         height: 250px;
      
+    }
+    .restaurants:hover{
+      scale: 95%;
+    
     }
     .restaurants img{
        height: 170px;
@@ -158,4 +172,53 @@
         margin-top: -8px;
         color: rgb(55, 55, 55);
         
+    }
+
+    .locations{
+        display: flex;
+        justify-content: space-between;
+        
+        margin-left: 100px;
+        width: 85%;
+        /* border: 2px solid red; */
+        height: 60px;
+    }
+    .location{
+        height: 50px;
+        width: 23%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(220, 220, 220);
+        border-radius: 10px;
+        background-color: rgb(249, 246, 248);
+    }
+    .location span{
+        font-size: 18px;
+        ;
+        color: rgb(94, 94, 94);
+    }
+    .Cuisines{
+        display: flex;
+        justify-content: space-between;
+        
+        margin-left: 100px;
+        width: 85%;
+        /* border: 2px solid red; */
+        height: 60px;
+    }
+    .Cuisine{
+        height: 50px;
+        width: 23%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(220, 220, 220);
+        border-radius: 10px;
+        background-color: rgb(249, 246, 248);
+    }
+    .Cuisine span{
+        font-size: 18px;
+        ;
+        color: rgb(94, 94, 94);
     }
